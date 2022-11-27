@@ -32,7 +32,7 @@
         backgroundImage="{backgroundImage.0}"
         backgroundImageOptions="{data.background_image_options}"
     >
-        <f:if condition="{data._LOCALIZED_UID}"><a id="c{data._LOCALIZED_UID}"></a></f:if>
+        <f:if condition="{data._LOCALIZED_UID}"><span id="c{data._LOCALIZED_UID}"></span></f:if>
         <f:render section="Before" optional="true"><f:render partial="DropIn/Before/All" arguments="{_all}" /></f:render>
         <f:render section="Header" optional="true"><f:render partial="Header/All" arguments="{_all}" /></f:render>
         <f:render section="Main"   optional="true" />
